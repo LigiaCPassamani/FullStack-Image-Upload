@@ -1,0 +1,10 @@
+#DATABASE
+spring:
+  profiles:
+    active: dev
+  jpa:
+    show-sql=: true
+    database: PostgreSQL
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
